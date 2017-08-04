@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# List of Movies
 bill_ted = media.Movie("Bill & Ted's Excellent Adventure",
                        "1989",
                        "Two seemingly dumb teens struggle to prepare a historical presentation with the help of a "
@@ -51,5 +52,7 @@ spencer = media.Movie("2 ausser Rand und Band",
                       "/MV5BMTkwMDU4OTkyMV5BMl5BanBnXkFtZTcwMzIxMTU0MQ@@._V1_UY268_CR1,0,182,268_AL_.jpg",
                       "https://www.youtube.com/watch?v=PWbjj2o655U")
 
+# put the movies into a list
 movies = {spencer, blues, bill_ted, gump, intersteller, deadpool}
+# generate the html content with the movie list
 fresh_tomatoes.open_movies_page(movies)

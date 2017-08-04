@@ -1,3 +1,4 @@
+#  The Movie Base Class
 class Movie():
     def __init__(self, movie_title, movie_year, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
